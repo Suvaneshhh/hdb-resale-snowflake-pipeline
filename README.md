@@ -16,6 +16,16 @@ A layered SQL pipeline in Snowflake (RAW → STAGING → DATA\_MART) over Singap
 
 The source is the public "Resale flat prices based on registration date from Jan-2017 onwards" dataset published by HDB on data.gov.sg (https://data.gov.sg/datasets?query=hdb+resale\&resultId=d\_8b84c4ee58e3cfc0ece0d773c8ca6abc). The raw CSV is loaded into Snowflake, cleaned and typed in a staging layer, and summarised into data mart tables that Power BI reads.
 
+## Screenshots
+
+### Power BI dashboard
+![Price overview](docs/screenshots/dashboard-price-overview.png)
+![Flat type breakdown](docs/screenshots/dashboard-flat-type.png)
+
+### Snowflake pipeline
+![Schema layers](docs/screenshots/snowflake-schemas.png)
+![Data mart row count](docs/screenshots/snowflake-data-mart-rows.png)
+
 
 
 \## Questions answered
