@@ -26,7 +26,11 @@ The source is the public "Resale flat prices based on registration date from Jan
 ![Schema layers](docs/screenshots/snowflake-schemas.png)
 ![Data mart row count](docs/screenshots/snowflake-data-mart-rows.png)
 
+### Project tracking (Jira)
+Work was planned as epics and user stories in a Scrum board and closed out in one sprint. Logged retrospectively for a solo project.
 
+![Jira board](docs/screenshots/jira-board.png)
+![Jira summary](docs/screenshots/jira-summary.png)
 
 \## Questions answered
 
